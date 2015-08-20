@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="utf-8">
+<meta name="description">
+<title> 
+	Handlebars Exercise
+</title>
+<link href="styles.css" rel="stylesheet">
+<script src="jquery-1.11.3.min.js"></script>
+<!-- //insert link to handlebars file before your script.js file -->
+<script src="handlebars-v3.0.3.js"></script>
+<script type="text/javascript" src='script.js'> </script>
+</head>
+<body>
+	<!-- Paste in template from handlebars page ("You can deliver a template...")
+	Change name of class, header tag and text to whatever you want. -->
+	<script id="entry-template" type="text/x-handlebars-template">
+	<div>
+	{{#each this}}
+  	  <h1>{{name}}</h1>
+  	  <h4 class="role">{{role}}</h4>
+  	  <h4>Occupation: {{occupation}}</h4>
+  	  <h4>Likes to: {{likesTo1}}, {{likesTo2}}, {{likesTo3}}</h4>
+  	  <p></p>
+  	  {{/each}}
+  	 </div>
+  
+  </div>
+</script>
+<div class="content"> </div>
+
+</body>
+</html>
+

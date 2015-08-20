@@ -1,0 +1,25 @@
+.content {
+  background-color:floralwhite
+  font-family:Times;
+  font-size:120%;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 150px 10px 150px;
+  text-align: left;
+}
+
+.role   {
+    font-style: italic
+}
+  h1   {
+    color:darkslateblue;
+    font-family:verdana;
+    font-size:160%;
+    padding-top: 10px;
+
+}
+  h4   {
+    font-size:80%;
+    color:dimgray;
+}
