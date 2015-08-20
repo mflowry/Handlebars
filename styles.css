@@ -6,20 +6,31 @@
   margin-left: 200px;
   margin-right: 200px;
   padding: 10px 150px 10px 150px;
-  text-align: left;
+  text-align: center;
+  width: 300;
+}
+.panel-heading {
+	padding: 10px;
+}
+.panel-title {
+	color: light blue;
 }
 
-.role   {
-    font-style: italic
-}
   h1   {
     color:darkslateblue;
     font-family:verdana;
     font-size:160%;
-    padding-top: 10px;
+    padding-top: 30px;
+    text-align: center;
 
+}
+h3   {
+    font-style: italic
+    font-size: 80%;
+ 
 }
   h4   {
     font-size:80%;
     color:dimgray;
+    
 }
