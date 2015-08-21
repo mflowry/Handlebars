@@ -7,13 +7,14 @@
   margin-right: 200px;
   padding: 10px 150px 10px 150px;
   text-align: center;
-  width: 300;
+  width: 200;
 }
 .panel-heading {
 	padding: 10px;
+  background-color: lightblue;
 }
 .panel-title {
-	color: light blue;
+	color: navy;
 }
 
   h1   {
@@ -24,12 +25,21 @@
     text-align: center;
 
 }
+h2 {
+  font-family:verdana;
+  font-size: 120%;
+  color:darkslateblue;
+}
 h3   {
-    font-style: italic
-    font-size: 80%;
+    font-family:verdana;
+    font-style: italic;
+    font-size: 100%;
+    font-family:verdana;
+    color: dimgray;
  
 }
   h4   {
+    font-family:verdana;
     font-size:80%;
     color:dimgray;
     
